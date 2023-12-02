@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/nav.css">
+
+
+<script src="Js/nav.js"></script>
+
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+
+
+
+
+        .main{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            background-image: url("bg1.jpg");
+        }
+
+        .main>h1{
+            color: white;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 4px;
+        }
+        .main>p{
+            color: gray;
+            font-size: 13px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        .leaders{
+            text-align: center;
+            background-color: lightgray;
+            padding-top: 35px;
+        }
+
+        .leaders-img{
+        justify-content:center;
+        display:flex;
+        flex-direction:row;
+        }
+        .leaders>h1{
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 10px;
+        }
+
+        .img{
+            padding: 15px;
+        }
+        .img>img{
+            width: 150px;
+            border-radius: 200px;
+            border: solid gray 2px;
+        }
+
+        .img>h2{
+            font-size: 25px;
+        }
+
+        .location{
+            padding: 15px;
+            padding-top: 20px;
+            text-align: center;
+            background-color: #4267B2;
+            color: lightgrey;
+        }
+
+        .location>div{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .location>div>h2{
+            color: orange;
+        }
+
+        .location>div>h3{
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: 720px) {
+           .leaders-img{
+        justify-content:center;
+        display:flex;
+        flex-direction:column;
+        }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <img src="Asset/sl_logo.png" alt="" id="logo">
+        <h1>SPIRIT LIFE</h1>
+        </div>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="login_form.php">Log In</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    </nav>
+    <section class="main">
+        <h1>Name Church</h1>
+        <p>Impowering The Generation For God</p>
+    </section>
+    <section class="leaders">
+        <h1>Church Leaders</h1>
+        <div class="leaders-img">
+            <div class="img">
+                <img src="Asset/image1.jpg" alt="">
+                <h2>name surname</h2>
+            </div>
+            <div class="img">
+                <img src="Asset/image2.jpg" alt="">
+                <h2>name surname</h2>
+            </div>
+            <div class="img">
+                <img src="Asset/image3.jpg" alt="">
+                <h2>name surname</h2>
+            </div>
+            <div class="img">
+                <img src="Asset/image4.jpg" alt="">
+                <h2>name surname</h2>
+            </div>
+            <div class="img">
+                <img src="Asset/image5.jpg" alt="">
+                <h2>name surname</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <div>
+            <h2>ETHIOPIA</h2>
+            <h3>Your Location Here</h3>
+            <p>+251 9* *** **** || +251 9* *** ****</p>
+        </div>
+
+        <div>
+            <h2>USA</h2>
+            <h3>Your Location Here</h3>
+            <p>+251 9* *** **** || +251 9* *** ****</p>
+        </div>
+    </section>
+</body>
+</html>
