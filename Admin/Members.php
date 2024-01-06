@@ -180,7 +180,7 @@ elseif($_SESSION['role'] != 'admin'){
                 <?php
                 $servername = "localhost";
                 $username = "admin";
-                $password = "";
+                $password = "password";
                 $dbname = "database";
             
                 // Create connection
